@@ -195,7 +195,7 @@ body a {
   width: 100%;
   height: 100vh;
   margin-bottom: 100px;
-  background-image: url("/img/hero.jpg");
+  background-image: url("../img/hero.jpg");
   background-size: cover;
   z-index: 0;
 }
