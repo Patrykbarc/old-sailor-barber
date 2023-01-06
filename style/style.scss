@@ -31,7 +31,20 @@ body {
 	max-width: 1200px;
 }
 
-// main content //
+// navigation //
+
+.home {
+	display: none;
+	position: fixed;
+	width: 3rem;
+	left: 0;
+	bottom: 0;
+	padding: 0.5rem 0;
+	margin: 0 0 1rem 1rem;
+	z-index: 9;
+	transform: rotate(180deg);
+	// border: 2px solid rgba(248, 187, 18, 0.25);
+}
 
 .hamburger {
 	display: none;
@@ -42,7 +55,6 @@ body {
 }
 
 .mobile_nav {
-	// display: none;
 	position: fixed;
 	overflow: hidden;
 	width: 100vw;
@@ -89,6 +101,10 @@ body {
 	left: 100%;
 }
 
+.scroll {
+	overflow-y: hidden;
+}
+
 .nav {
 	position: fixed;
 	z-index: 1;
@@ -122,6 +138,9 @@ body {
 		}
 	}
 }
+
+// main content //
+
 // hero //
 .hero {
 	position: relative;
@@ -146,7 +165,7 @@ body {
 		left: 50%;
 		transform: translateX(-50%);
 		padding: 10px;
-		margin-bottom: 40px;
+		margin-bottom: 5vh;
 	}
 	&__content {
 		position: absolute;
@@ -286,6 +305,10 @@ body {
 @media (max-width: 992px) {
 	.nav {
 		display: none;
+	}
+
+	.home {
+		display: block;
 	}
 
 	.hamburger {

@@ -78,6 +78,19 @@ body a {
   max-width: 1200px;
 }
 
+.home {
+  display: none;
+  position: fixed;
+  width: 3rem;
+  left: 0;
+  bottom: 0;
+  padding: 0.5rem 0;
+  margin: 0 0 1rem 1rem;
+  z-index: 9;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
 .hamburger {
   display: none;
   position: fixed;
@@ -142,6 +155,10 @@ body a {
 
 .hidden {
   left: 100%;
+}
+
+.scroll {
+  overflow-y: hidden;
 }
 
 .nav {
@@ -217,7 +234,7 @@ body a {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   padding: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 5vh;
 }
 .hero__content {
   position: absolute;
@@ -431,6 +448,9 @@ body a {
 @media (max-width: 992px) {
   .nav {
     display: none;
+  }
+  .home {
+    display: block;
   }
   .hamburger {
     display: block;
