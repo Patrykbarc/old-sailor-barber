@@ -31,6 +31,7 @@ body {
 	max-width: 1200px;
 }
 
+
 // navigation //
 
 .home {
@@ -42,6 +43,7 @@ body {
 	padding: 0.5rem 0;
 	margin: 0 0 1rem 1rem;
 	transform: rotate(180deg);
+
 	// border: 2px solid rgba(248, 187, 18, 0.25);
 }
 
@@ -86,6 +88,7 @@ body {
 		z-index: 11;
 	}
 	&__logo {
+		display: none;
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -160,11 +163,10 @@ body {
 	}
 	&__chevron {
 		position: absolute;
-		bottom: 0;
+		top: 85vh;
 		left: 50%;
 		transform: translateX(-50%);
 		padding: 10px;
-		margin-bottom: 5vh;
 	}
 	&__content {
 		position: absolute;
@@ -312,6 +314,12 @@ body {
 
 	.hamburger {
 		display: block;
+	}
+
+	.mobile_nav {
+		&__logo {
+			display: block;
+		}
 	}
 
 	.hero {
