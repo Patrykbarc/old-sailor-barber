@@ -7,7 +7,7 @@ body {
 	font-style: normal;
 	background-color: $black;
 
-	// hover variables //
+	// buttons and hover variables //
 	button {
 		transition: background-color 0.2s;
 	}
@@ -30,7 +30,6 @@ body {
 	width: 100%;
 	max-width: 1200px;
 }
-
 
 // navigation //
 
@@ -304,6 +303,11 @@ body {
 }
 
 @media (max-width: 992px) {
+	body {
+		.button {
+			@include ctaLink;
+		}
+	}
 	.nav {
 		display: none;
 	}
@@ -344,9 +348,7 @@ body {
 		&__section {
 			margin-bottom: 60px;
 		}
-		&__ctaBtn {
-			width: 100%;
-		}
+
 		&__item {
 			&--services {
 				@include subtitle;
