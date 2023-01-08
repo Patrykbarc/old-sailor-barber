@@ -57,7 +57,7 @@ body {
   font-style: normal;
   background-color: #0e0e0e;
 }
-body .button a:link {
+body .button {
   color: #0e0e0e;
 }
 body button {

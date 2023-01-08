@@ -9,9 +9,10 @@ body {
 
 	// buttons and hover variables //
 	.button {
-		a:link {
-			color: $black;
-		}
+		color: $black;
+		// a:link {
+		// 	color: $black;
+		// }
 	}
 	button {
 		transition: background-color 0.2s;
