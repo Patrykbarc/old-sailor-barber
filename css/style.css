@@ -57,6 +57,9 @@ body {
   font-style: normal;
   background-color: #0e0e0e;
 }
+body .button a:link {
+  color: #0e0e0e;
+}
 body button {
   -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;

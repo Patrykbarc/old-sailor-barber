@@ -8,6 +8,11 @@ body {
 	background-color: $black;
 
 	// buttons and hover variables //
+	.button {
+		a:link {
+			color: $black;
+		}
+	}
 	button {
 		transition: background-color 0.2s;
 	}
