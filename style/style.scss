@@ -48,8 +48,7 @@ body {
 	padding: 0.5rem 0;
 	margin: 0 0 1rem 1rem;
 	transform: rotate(180deg);
-
-	// border: 2px solid rgba(248, 187, 18, 0.25);
+	mix-blend-mode: screen;
 }
 
 .hamburger {
@@ -58,6 +57,7 @@ body {
 	top: 0;
 	right: 0;
 	z-index: 1;
+	mix-blend-mode: screen;
 }
 
 .mobile_nav {

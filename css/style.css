@@ -91,6 +91,7 @@ body a {
   margin: 0 0 1rem 1rem;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
+  mix-blend-mode: screen;
 }
 
 .hamburger {
@@ -99,6 +100,7 @@ body a {
   top: 0;
   right: 0;
   z-index: 1;
+  mix-blend-mode: screen;
 }
 
 .mobile_nav {
