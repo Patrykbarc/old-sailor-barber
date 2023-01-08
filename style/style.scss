@@ -306,6 +306,8 @@ body {
 	body {
 		.button {
 			@include ctaLink;
+			display: flex;
+			justify-content: center;
 		}
 	}
 	.nav {
