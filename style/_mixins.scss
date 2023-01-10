@@ -37,9 +37,9 @@
 	text-transform: uppercase;
 }
 
-@mixin display {
+@mixin desktopDisplay {
 	font-weight: 700;
-	font-size: 3em;
+	font-size: 4em;
 	line-height: 55px;
 	text-transform: capitalize;
 	color: $brand;
@@ -77,6 +77,14 @@
 	font-size: 2.137em;
 	line-height: 112%;
 	text-transform: uppercase;
+}
+
+@mixin mobileDisplay {
+	font-weight: 700;
+	font-size: 3em;
+	line-height: 55px;
+	text-transform: capitalize;
+	color: $brand;
 }
 
 // common //

@@ -181,7 +181,8 @@ body {
 		z-index: 10;
 	}
 	&__title {
-		@include display;
+		@include desktopDisplay;
+		margin-bottom: 1rem;
 	}
 	&__copy {
 		@include desktopBody;
@@ -194,14 +195,23 @@ body {
 // main //
 .main {
 	@include sectionCopy;
-	p:last-of-type {
-		padding-bottom: 40px;
-	}
 	h3 {
 		margin-top: 20px;
 	}
+	p:last-of-type {
+		padding-bottom: 40px;
+	}
 	&__section {
 		margin-bottom: 100px;
+		&--privacy {
+			border: 1px solid $brand;
+			padding: 4rem;
+			li {
+				@include desktopBody;
+				margin-top: 1rem;
+				color: $white;
+			}
+		}
 	}
 	&__gallery {
 		display: flex;
@@ -345,8 +355,8 @@ body {
 			align-items: center;
 		}
 		&__title {
+			@include mobileDisplay;
 			text-align: center;
-			margin-bottom: 10px;
 		}
 		&__copy {
 			text-align: center;
@@ -388,7 +398,6 @@ body {
 
 		&__title {
 			text-align: left;
-			margin-bottom: 10px;
 		}
 		&__copy {
 			text-align: left;

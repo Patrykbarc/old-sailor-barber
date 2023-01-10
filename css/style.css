@@ -249,10 +249,11 @@ body a {
 }
 .hero__title {
   font-weight: 700;
-  font-size: 3em;
+  font-size: 4em;
   line-height: 55px;
   text-transform: capitalize;
   color: #c39515;
+  margin-bottom: 1rem;
 }
 .hero__copy {
   font-weight: 400;
@@ -289,14 +290,26 @@ body a {
   color: #f2f2f2;
   margin-bottom: 16px;
 }
-.main p:last-of-type {
-  padding-bottom: 40px;
-}
 .main h3 {
   margin-top: 20px;
 }
+.main p:last-of-type {
+  padding-bottom: 40px;
+}
 .main__section {
   margin-bottom: 100px;
+}
+.main__section--privacy {
+  border: 1px solid #c39515;
+  padding: 4rem;
+}
+.main__section--privacy li {
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 24px;
+  color: #f2f2f2;
+  margin-top: 1rem;
+  color: #f2f2f2;
 }
 .main__gallery {
   display: -webkit-box;
@@ -490,8 +503,12 @@ body a {
             align-items: center;
   }
   .hero__title {
+    font-weight: 700;
+    font-size: 3em;
+    line-height: 55px;
+    text-transform: capitalize;
+    color: #c39515;
     text-align: center;
-    margin-bottom: 10px;
   }
   .hero__copy {
     text-align: center;
@@ -531,7 +548,6 @@ body a {
   }
   .hero__title {
     text-align: left;
-    margin-bottom: 10px;
   }
   .hero__copy {
     text-align: left;
