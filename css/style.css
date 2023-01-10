@@ -299,18 +299,6 @@ body a {
 .main__section {
   margin-bottom: 100px;
 }
-.main__section--privacy {
-  border: 1px solid #c39515;
-  padding: 4rem;
-}
-.main__section--privacy li {
-  font-weight: 400;
-  font-size: 1em;
-  line-height: 24px;
-  color: #f2f2f2;
-  margin-top: 1rem;
-  color: #f2f2f2;
-}
 .main__gallery {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -409,6 +397,35 @@ body a {
 .main__store .gallery_img img {
   width: 100%;
   height: 100%;
+}
+
+.privacy__main {
+  border: 1px solid #c39515;
+  padding: 4rem;
+  list-style: inside;
+}
+.privacy__title {
+  font-weight: 700;
+  font-size: 2.44em;
+  line-height: 58px;
+  text-transform: uppercase;
+  color: #c39515;
+}
+.privacy__copy {
+  margin: 2rem 0;
+  color: #f2f2f2;
+}
+.privacy li {
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 24px;
+  color: #f2f2f2;
+  margin-top: 2rem;
+  color: #f2f2f2;
+}
+.privacy li::marker {
+  color: #c39515;
+  font-weight: bold;
 }
 
 .footer {

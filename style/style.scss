@@ -203,16 +203,8 @@ body {
 	}
 	&__section {
 		margin-bottom: 100px;
-		&--privacy {
-			border: 1px solid $brand;
-			padding: 4rem;
-			li {
-				@include desktopBody;
-				margin-top: 1rem;
-				color: $white;
-			}
-		}
 	}
+
 	&__gallery {
 		display: flex;
 		justify-content: space-between;
@@ -267,6 +259,37 @@ body {
 				height: 100%;
 			}
 		}
+	}
+}
+
+// policy privacy //
+
+.privacy {
+	// position: absolute;
+	// left: 50%;
+	// top: 50%;
+	// transform: translate(-50%, -50%);
+	&__main {
+		border: 1px solid $brand;
+		padding: 4rem;
+		list-style: inside;
+	}
+	&__title {
+		@include desktopH1;
+		color: $brand;
+	}
+	&__copy {
+		margin: 2rem 0;
+		color: $white;
+	}
+	li {
+		@include desktopBody;
+		margin-top: 2rem;
+		color: $white;
+	}
+	li::marker {
+		color: $brand;
+		font-weight: bold;
 	}
 }
 
