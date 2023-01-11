@@ -300,11 +300,19 @@ body {
 		padding: 0 1rem;
 	}
 	.copyright {
+		display: flex;
+		flex-direction: column;
 		margin-top: 1rem;
 		&__item {
 			@include subtitle;
 			width: 100%;
 			margin-top: 0.5rem;
+			&--privacy {
+				display: none;
+			}
+		}
+		a {
+			@include subtitle;
 		}
 	}
 
@@ -408,6 +416,13 @@ body {
 		}
 		&__links {
 			display: none;
+		}
+		.copyright {
+			&__item {
+				&--privacy {
+					display: block;
+				}
+			}
 		}
 	}
 }
