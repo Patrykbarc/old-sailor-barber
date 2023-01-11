@@ -399,8 +399,14 @@ body a {
   height: 100%;
 }
 
+.home_btn {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  padding: 1rem 0;
+}
+
 .privacy__main {
-  padding: 4rem;
+  padding: 4rem 0;
   list-style: inside;
 }
 .privacy__title {
