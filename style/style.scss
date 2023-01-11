@@ -389,6 +389,9 @@ body {
 		}
 	}
 	.main {
+		a {
+			@include mobileBody;
+		}
 		&__section {
 			margin-bottom: 4rem;
 		}

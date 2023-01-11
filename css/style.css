@@ -554,6 +554,11 @@ body a {
   .hero__copy {
     text-align: center;
   }
+  .main a {
+    font-weight: 400;
+    font-size: 0.8em;
+    line-height: 24px;
+  }
   .main__section {
     margin-bottom: 4rem;
   }
