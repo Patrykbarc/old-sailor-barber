@@ -138,7 +138,7 @@ body a {
   font-size: 1.3em;
   line-height: 33px;
   color: #f2f2f2;
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
   list-style: none;
 }
 .mobile_nav__closeBtn {
@@ -291,10 +291,13 @@ body a {
   margin-bottom: 16px;
 }
 .main h3 {
-  margin-top: 20px;
+  margin-top: 1rem;
 }
 .main p:last-of-type {
   padding-bottom: 3rem;
+}
+.main__section {
+  margin-bottom: 6rem;
 }
 .main__gallery {
   display: -webkit-box;
@@ -552,7 +555,7 @@ body a {
     text-align: center;
   }
   .main__section {
-    margin-bottom: 60px;
+    margin-bottom: 4rem;
   }
   .main__item--services {
     font-weight: 400;
