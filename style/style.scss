@@ -256,13 +256,14 @@ body {
 // policy privacy //
 
 .home_btn {
+	display: none;
 	transform: rotate(90deg);
 	padding: 1rem 0;
 }
 
 .privacy {
 	&__main {
-		padding: 4rem 0;
+		padding: 2rem 0;
 		list-style: inside;
 	}
 	&__title {
@@ -415,6 +416,10 @@ body {
 				}
 			}
 		}
+	}
+
+	.home_btn {
+		display: block;
 	}
 }
 

@@ -397,13 +397,14 @@ body a {
 }
 
 .home_btn {
+  display: none;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
   padding: 1rem 0;
 }
 
 .privacy__main {
-  padding: 4rem 0;
+  padding: 2rem 0;
   list-style: inside;
 }
 .privacy__title {
@@ -579,6 +580,9 @@ body a {
     display: none;
   }
   .footer .copyright__item--privacy {
+    display: block;
+  }
+  .home_btn {
     display: block;
   }
 }
