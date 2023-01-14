@@ -266,6 +266,10 @@ body {
 }
 
 .privacy {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	&__main {
 		padding: 2rem 0;
 		list-style: inside;
@@ -286,6 +290,11 @@ body {
 	li::marker {
 		color: $brand;
 		font-weight: bold;
+	}
+	.footer {
+		&__hr {
+			margin: 2rem 0;
+		}
 	}
 }
 

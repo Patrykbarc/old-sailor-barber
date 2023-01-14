@@ -407,6 +407,19 @@ body a {
   padding: 1rem 0;
 }
 
+.privacy {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
 .privacy__main {
   padding: 2rem 0;
   list-style: inside;
@@ -433,6 +446,9 @@ body a {
 .privacy li::marker {
   color: #c39515;
   font-weight: bold;
+}
+.privacy .footer__hr {
+  margin: 2rem 0;
 }
 
 .footer {
