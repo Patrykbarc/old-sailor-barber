@@ -53,6 +53,7 @@ hr {
 }
 
 body {
+  position: relative;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   background-color: #0e0e0e;
