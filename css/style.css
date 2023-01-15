@@ -421,7 +421,7 @@ body a {
           justify-content: space-between;
 }
 .privacy__main {
-  margin: 5rem 0;
+  margin-top: 5rem;
   padding: 2rem 0;
   list-style: inside;
 }
