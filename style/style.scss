@@ -275,10 +275,26 @@ body {
 	justify-content: space-between;
 	h3 {
 		@include desktopH3;
+		margin-top: 3rem;
 		color: $brand;
 	}
+	ol {
+		li {
+			margin-top: 2rem;
+		}
+	}
+	li {
+		@include desktopBody;
+		// margin-top: 2rem;
+		color: $white;
+	}
+	li::marker {
+		color: $brand;
+		font-weight: bold;
+	}
+
 	&__main {
-		margin-top: 5rem;
+		margin-top: 2rem;
 		padding: 2rem 0;
 		list-style: inside;
 	}
@@ -290,15 +306,24 @@ body {
 		margin: 2rem 0;
 		color: $white;
 	}
-	li {
-		@include desktopBody;
-		margin-top: 2rem;
-		color: $white;
+
+	// &__form {
+	// 	border: 1px solid red;
+	// }
+
+	&__form-box {
+		background-color: red;
+		&--input {
+			padding: 6px 12px;
+			// background-color: green;
+		}
+		&--upload {
+			padding: 6px 12px;
+			border: 1px solid #ccc;
+			cursor: pointer;
+		}
 	}
-	li::marker {
-		color: $brand;
-		font-weight: bold;
-	}
+
 	.footer {
 		&__hr {
 			margin: 2rem 0;
@@ -442,6 +467,11 @@ body {
 		}
 	}
 
+	.subpage {
+		&__main {
+			margin-top: 5rem;
+		}
+	}
 	.home_btn {
 		position: fixed;
 		display: block;

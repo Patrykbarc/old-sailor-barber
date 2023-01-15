@@ -426,10 +426,25 @@ body .bold {
   font-size: 1.56em;
   line-height: 38px;
   color: #f2f2f2;
+  margin-top: 3rem;
   color: #c39515;
 }
+.subpage ol li {
+  margin-top: 2rem;
+}
+.subpage li {
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 24px;
+  color: #f2f2f2;
+  color: #f2f2f2;
+}
+.subpage li::marker {
+  color: #c39515;
+  font-weight: bold;
+}
 .subpage__main {
-  margin-top: 5rem;
+  margin-top: 2rem;
   padding: 2rem 0;
   list-style: inside;
 }
@@ -444,17 +459,16 @@ body .bold {
   margin: 2rem 0;
   color: #f2f2f2;
 }
-.subpage li {
-  font-weight: 400;
-  font-size: 1em;
-  line-height: 24px;
-  color: #f2f2f2;
-  margin-top: 2rem;
-  color: #f2f2f2;
+.subpage__form-box {
+  background-color: red;
 }
-.subpage li::marker {
-  color: #c39515;
-  font-weight: bold;
+.subpage__form-box--input {
+  padding: 6px 12px;
+}
+.subpage__form-box--upload {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  cursor: pointer;
 }
 .subpage .footer__hr {
   margin: 2rem 0;
@@ -615,6 +629,9 @@ body .bold {
   }
   .footer .copyright__item--privacy {
     display: block;
+  }
+  .subpage__main {
+    margin-top: 5rem;
   }
   .home_btn {
     position: fixed;
