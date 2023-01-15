@@ -421,6 +421,7 @@ body a {
           justify-content: space-between;
 }
 .privacy__main {
+  margin: 5rem 0;
   padding: 2rem 0;
   list-style: inside;
 }
@@ -608,6 +609,7 @@ body a {
     display: block;
   }
   .home_btn {
+    position: fixed;
     display: block;
   }
 }
