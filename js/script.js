@@ -29,4 +29,4 @@ const hideHome = () => {
 
 hamburger.addEventListener('click', navToggler)
 closeBtn.addEventListener('click', navToggler)
-window.addEventListener('scroll', hideHome)
+window.addEventListener('DOMContentLoaded', hideHome)
